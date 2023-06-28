@@ -1,8 +1,6 @@
 import Foundation
 
-#if !COCOAPODS && canImport(StatsigInternalObjC)
 import StatsigInternalObjC
-#endif
 
 public typealias completionBlock = ((_ errorMessage: String?) -> Void)?
 
